@@ -1,13 +1,8 @@
-const cards = ["A", "B", "C", "A","B","C"];
-
-
-// const element = document.createElement("div");
-
-// element.innerHTML="fddfgdg";
-
-// const board = document.getElementById("board");
-
-// board.appendChild(element);
+const cards = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L',
+'M', 'N', 'O', 'P', 'Q', 'R',  'S', 'T', 'U', 'V', 'W', 'X',
+'Y', 'Z','A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L',
+'M', 'N', 'O', 'P', 'Q', 'R',  'S', 'T', 'U', 'V', 'W', 'X',
+'Y', 'Z'];
 
 
 function creatCard(idx){
@@ -27,8 +22,6 @@ function newCards(cards){
     shuffleArray(cards)
     const board = document.getElementById("board");
     for (i in cards){
-        // const element = document.createElement("div");
-        // element.innerHTML=cards[i];
         let element = creatCard(i)
         board.appendChild(element);    
     }

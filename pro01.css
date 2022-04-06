@@ -1,0 +1,27 @@
+.card{
+    color: white;
+    font-size: 70px;
+    border: 1px solid brown;
+    border-radius: 10px;
+    height: 100px;
+    width: 80px;
+    background-color: chocolate;
+    /* padding-top: 15px; */
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+    float: left;
+  }
+.card:hover{
+  color: chocolate;
+  background-color: white;
+}
+body{
+  background-image: url(imagesBake.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1{
+  text-align: center;
+}
